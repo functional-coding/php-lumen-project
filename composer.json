@@ -1,6 +1,6 @@
 {
     "name": "functional-coding/php-lumen",
-    "description": "The Laravel Lumen Framework.",
+    "description": "The Laravel Lumen Application.",
     "authors": [
         {
             "email": "dbwhddn10@gmail.com",
@@ -8,7 +8,6 @@
         }
     ],
     "keywords": [
-        "framework",
         "laravel",
         "lumen"
     ],
@@ -16,6 +15,8 @@
     "type": "project",
     "require": {
         "php": ">=7.4",
+        "functional-coding/php-illuminate": "dev-master",
+        "functional-coding/php-jwt": "dev-master",
         "laravel/lumen-framework": "^8.0"
     },
     "require-dev": {
