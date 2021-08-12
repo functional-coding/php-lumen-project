@@ -1,0 +1,15 @@
+# dependencies
+/vendor
+
+# editor
+/.idea
+/.vscode
+
+# environment
+/.env
+
+# phpunit
+.phpunit.result.cache
+
+# php-cs-fixer
+.php-cs-fixer.cache
