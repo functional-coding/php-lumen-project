@@ -2,11 +2,8 @@
 
 namespace App\Events;
 
-class ExampleEvent extends Event
+class ExampleEvent
 {
-    /**
-     * Create a new event instance.
-     */
     public function __construct()
     {
     }
