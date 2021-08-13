@@ -18,4 +18,13 @@ class UserFactory extends Factory
             'created_at' => $this->faker->dateTimeThisCentury->format('Y-m-d'),
         ];
     }
+
+    // public function man()
+    // {
+    //     return $this->state(function (array $attributes) {
+    //         return [
+    //             'gender' => 'main',
+    //         ];
+    //     });
+    // }
 }
