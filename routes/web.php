@@ -35,7 +35,7 @@ $router->group([
 ], function () use ($router) {
     // $router->get('examples', 'ExampleController@index');
     // $router->get('examples/{id}', 'ExampleController@show');
-    $router->get('/', function () use ($router) {
-        return $router->app->version();
+    $router->get('/', function () {
+        dd('hello world');
     });
 });

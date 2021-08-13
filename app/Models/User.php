@@ -22,7 +22,6 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
     protected $casts = [
         'id' => 'integer',
     ];
-
     protected $fillable = [
         'name',
         'email',
@@ -30,7 +29,6 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
         'created_at',
     ];
     protected $guarded = ['id'];
-
     protected $hidden = [
         'password',
     ];
