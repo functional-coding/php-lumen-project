@@ -15,7 +15,8 @@
     "type": "project",
     "require": {
         "php": ">=7.4",
-        "functional-coding/php-illuminate": "dev-master",
+        "functional-coding/php": "dev-master",
+        "functional-coding/php-eloquent-orm": "dev-master",
         "functional-coding/php-jwt": "dev-master",
         "laravel/lumen-framework": "^8.0"
     },

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6f6e391a5761e3401171e72755ae05c",
+    "content-hash": "1f59743267bc8549fea8727f155d1fe5",
     "packages": [
         {
             "name": "brick/math",
-            "version": "0.9.2",
+            "version": "0.9.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/brick/math.git",
-                "reference": "dff976c2f3487d42c1db75a3b180e2b9f0e72ce0"
+                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brick/math/zipball/dff976c2f3487d42c1db75a3b180e2b9f0e72ce0",
-                "reference": "dff976c2f3487d42c1db75a3b180e2b9f0e72ce0",
+                "url": "https://api.github.com/repos/brick/math/zipball/ca57d18f028f84f777b2168cd1911b0dee2343ae",
+                "reference": "ca57d18f028f84f777b2168cd1911b0dee2343ae",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,7 @@
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2.2",
                 "phpunit/phpunit": "^7.5.15 || ^8.5 || ^9.0",
-                "vimeo/psalm": "4.3.2"
+                "vimeo/psalm": "4.9.2"
             },
             "type": "library",
             "autoload": {
@@ -52,15 +52,19 @@
             ],
             "support": {
                 "issues": "https://github.com/brick/math/issues",
-                "source": "https://github.com/brick/math/tree/0.9.2"
+                "source": "https://github.com/brick/math/tree/0.9.3"
             },
             "funding": [
+                {
+                    "url": "https://github.com/BenMorel",
+                    "type": "github"
+                },
                 {
                     "url": "https://tidelift.com/funding/github/packagist/brick/math",
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-20T22:51:39+00:00"
+            "time": "2021-08-15T20:50:18+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -372,19 +376,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/functional-coding/php.git",
-                "reference": "d7f44926a5af853acdcc70a5daee345d62f803a1"
+                "reference": "1fb8d5c7c155b88e5421812764cd5ab4ddfe4bc2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/functional-coding/php/zipball/d7f44926a5af853acdcc70a5daee345d62f803a1",
-                "reference": "d7f44926a5af853acdcc70a5daee345d62f803a1",
+                "url": "https://api.github.com/repos/functional-coding/php/zipball/1fb8d5c7c155b88e5421812764cd5ab4ddfe4bc2",
+                "reference": "1fb8d5c7c155b88e5421812764cd5ab4ddfe4bc2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "^3.0",
+                "friendsofphp/php-cs-fixer": "^3.0",
                 "phpunit/phpunit": "^9.5"
             },
             "default-branch": true,
@@ -409,20 +413,20 @@
                 "issues": "https://github.com/functional-coding/php/issues",
                 "source": "https://github.com/functional-coding/php/tree/master"
             },
-            "time": "2021-08-11T00:17:07+00:00"
+            "time": "2021-08-17T02:58:45+00:00"
         },
         {
-            "name": "functional-coding/php-illuminate",
+            "name": "functional-coding/php-eloquent-orm",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/functional-coding/php-illuminate.git",
-                "reference": "88b88a6c6d82b731a2dbcf4bc14ff47f33b15cfb"
+                "url": "https://github.com/functional-coding/php-eloquent-ORM.git",
+                "reference": "5c9489f4a31d51a492370b57b3397041496e7d14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/functional-coding/php-illuminate/zipball/88b88a6c6d82b731a2dbcf4bc14ff47f33b15cfb",
-                "reference": "88b88a6c6d82b731a2dbcf4bc14ff47f33b15cfb",
+                "url": "https://api.github.com/repos/functional-coding/php-eloquent-ORM/zipball/5c9489f4a31d51a492370b57b3397041496e7d14",
+                "reference": "5c9489f4a31d51a492370b57b3397041496e7d14",
                 "shasum": ""
             },
             "require": {
@@ -444,8 +448,8 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "FunctionalCoding\\Illuminate\\": "src/",
-                    "FunctionalCoding\\Illuminate\\Tests\\": "tests/"
+                    "FunctionalCoding\\ORM\\Eloquent\\": "src/",
+                    "FunctionalCoding\\ORM\\Eloquent\\Tests\\": "tests/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -459,10 +463,10 @@
                 }
             ],
             "support": {
-                "issues": "https://github.com/functional-coding/php-illuminate/issues",
-                "source": "https://github.com/functional-coding/php-illuminate/tree/master"
+                "issues": "https://github.com/functional-coding/php-eloquent-ORM/issues",
+                "source": "https://github.com/functional-coding/php-eloquent-ORM/tree/master"
             },
-            "time": "2021-08-12T00:33:14+00:00"
+            "time": "2021-08-17T02:14:09+00:00"
         },
         {
             "name": "functional-coding/php-jwt",
@@ -470,12 +474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/functional-coding/php-JWT.git",
-                "reference": "332ec1939180056f48ffabc48c0ab49064ecfdba"
+                "reference": "f7434c49e6f2d453f12d68245cb1400a161cca5e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/functional-coding/php-JWT/zipball/332ec1939180056f48ffabc48c0ab49064ecfdba",
-                "reference": "332ec1939180056f48ffabc48c0ab49064ecfdba",
+                "url": "https://api.github.com/repos/functional-coding/php-JWT/zipball/f7434c49e6f2d453f12d68245cb1400a161cca5e",
+                "reference": "f7434c49e6f2d453f12d68245cb1400a161cca5e",
                 "shasum": ""
             },
             "require": {
@@ -486,7 +490,7 @@
             },
             "require-dev": {
                 "friendsofphp/php-cs-fixer": "^3.0",
-                "functional-coding/php-illuminate": "dev-master",
+                "illuminate/validation": "^8.54",
                 "phpunit/phpunit": "^9.5"
             },
             "default-branch": true,
@@ -511,7 +515,7 @@
                 "issues": "https://github.com/functional-coding/php-JWT/issues",
                 "source": "https://github.com/functional-coding/php-JWT/tree/master"
             },
-            "time": "2021-08-11T03:33:44+00:00"
+            "time": "2021-08-16T17:25:43+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -2544,16 +2548,16 @@
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.32",
+            "version": "2.0.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "f5c4c19880d45d0be3e7d24ae8ac434844a898cd"
+                "reference": "fb53b7889497ec7c1362c94e61d8127ac67ea094"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/f5c4c19880d45d0be3e7d24ae8ac434844a898cd",
-                "reference": "f5c4c19880d45d0be3e7d24ae8ac434844a898cd",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/fb53b7889497ec7c1362c94e61d8127ac67ea094",
+                "reference": "fb53b7889497ec7c1362c94e61d8127ac67ea094",
                 "shasum": ""
             },
             "require": {
@@ -2633,7 +2637,7 @@
             ],
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
-                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.32"
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.33"
             },
             "funding": [
                 {
@@ -2649,7 +2653,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-06-12T12:12:59+00:00"
+            "time": "2021-08-16T04:20:12+00:00"
         },
         {
             "name": "psr/container",
@@ -8005,7 +8009,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "functional-coding/php-illuminate": 20,
+        "functional-coding/php": 20,
+        "functional-coding/php-eloquent-orm": 20,
         "functional-coding/php-jwt": 20
     },
     "prefer-stable": true,
