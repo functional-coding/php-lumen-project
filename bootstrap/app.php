@@ -87,8 +87,8 @@ $app->configure('app');
 */
 
 $app->register(App\Providers\AppServiceProvider::class);
-$app->register(FunctionalCoding\Illuminate\Providers\ServiceValidationProvider::class);
-$app->register(FunctionalCoding\Illuminate\Providers\ModelRelationMapProvider::class);
+$app->register(App\Providers\ModelRelationMapProvider::class);
+$app->register(FunctionalCoding\Illuminate\ValidationProvider::class);
 
 /*
 |--------------------------------------------------------------------------
