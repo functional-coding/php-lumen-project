@@ -13,9 +13,9 @@
 |
 */
 
-use FunctionalCoding\Illuminate\Http\RequestInputValueCastingMiddleware;
-use FunctionalCoding\Illuminate\Http\ServiceParameterSettingMiddleware;
-use FunctionalCoding\Illuminate\Http\ServiceRunMiddleware;
+use App\Http\Middlewares\RequestInputValueCastingMiddleware;
+use App\Http\Middlewares\ServiceParameterSettingMiddleware;
+use App\Http\Middlewares\ServiceRunMiddleware;
 use Illuminate\Support\Str;
 
 $prefix = str_replace('/', DIRECTORY_SEPARATOR, $_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR);
