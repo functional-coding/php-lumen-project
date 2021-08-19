@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Validation Language Lines
@@ -126,13 +125,11 @@ return [
 
     // custom
     'integers' => ':attribute must be integers separated by commas.',
-    'base64' => ':attribute must to be base64 encoded string.',
+    'base64' => ':attribute must be base64 encoded string.',
+    'base64_image' => ':attribute must be base64 encoded image.',
     'null' => ':attribute must not exist.',
-    'null_if' => ':attribute must not exist.',
     'not_null' => ':attribute must exist.',
-    'not_null_if' => ':attribute must exist.',
-    'false' => ':attribute must be false.',
-    'true' => ':attribute must be true.',
+    'some_of_array' => 'The :attribute must be some of :list.',
 
     /*
     |--------------------------------------------------------------------------
@@ -163,5 +160,4 @@ return [
     */
 
     'attributes' => [],
-
 ];
