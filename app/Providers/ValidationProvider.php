@@ -3,14 +3,14 @@
 namespace App\Providers;
 
 use App\Validator;
+use Illuminate\Support\Facades\Validator as Validation;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Validation\Factory;
 
 class ValidationProvider extends ServiceProvider
 {
-    public function register()
+    public function boot()
     {
-        Factory::resolver(function ($translator, $data, $rules, $customMessages, $customNames) {
+        Validation::resolver(function ($translator, $data, $rules, $customMessages, $customNames) {
             return new Validator(
                 $translator,
                 $data,
