@@ -14,6 +14,7 @@
 */
 
 use App\Http\Middlewares\RequestInputValueCastingMiddleware;
+use App\Http\Middlewares\ResponseHeaderSettingMiddleware;
 use App\Http\Middlewares\ServiceParameterSettingMiddleware;
 use App\Http\Middlewares\ServiceRunMiddleware;
 use Illuminate\Support\Str;
@@ -31,6 +32,7 @@ $router->group([
         ServiceRunMiddleware::class,
         ServiceParameterSettingMiddleware::class,
         RequestInputValueCastingMiddleware::class,
+        ResponseHeaderSettingMiddleware::class,
     ],
 ], function () use ($router) {
     // $router->get('examples', 'ExampleController@index');
