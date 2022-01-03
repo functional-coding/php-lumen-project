@@ -13,10 +13,9 @@
 |
 */
 
-use App\Http\Middlewares\RequestInputValueCastingMiddleware;
-use App\Http\Middlewares\ResponseHeaderSettingMiddleware;
-use App\Http\Middlewares\ServiceParameterSettingMiddleware;
-use App\Http\Middlewares\ServiceRunMiddleware;
+use FunctionalCoding\ORM\Eloquent\Http\RequestInputCastingMiddleware;
+use FunctionalCoding\ORM\Eloquent\Http\ServiceParameterMiddleware;
+use FunctionalCoding\ORM\Eloquent\Http\ServiceRunMiddleware;
 use Illuminate\Support\Str;
 
 $prefix = str_replace('/', DIRECTORY_SEPARATOR, $_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR);
@@ -30,9 +29,8 @@ $router->group([
     'prefix' => $prefix,
     'middleware' => [
         ServiceRunMiddleware::class,
-        ServiceParameterSettingMiddleware::class,
-        RequestInputValueCastingMiddleware::class,
-        ResponseHeaderSettingMiddleware::class,
+        ServiceParameterMiddleware::class,
+        RequestInputCastingMiddleware::class,
     ],
 ], function () use ($router) {
     // $router->get('examples', 'ExampleController@index');

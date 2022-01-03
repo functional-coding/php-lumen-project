@@ -86,10 +86,8 @@ $app->configure('app');
 |
 */
 
-$app->register(App\Providers\AppServiceProvider::class);
-$app->register(App\Providers\ModelRelationMapProvider::class);
-$app->register(App\Providers\ValidationProvider::class);
-$app->register(FunctionalCoding\Illuminate\ValidationProvider::class);
+$app->register(FunctionalCoding\ORM\Eloquent\Providers\ServiceJsonApiProvider::class);
+$app->register(FunctionalCoding\ORM\Eloquent\Providers\ServiceTransactionProvider::class);
 
 /*
 |--------------------------------------------------------------------------
